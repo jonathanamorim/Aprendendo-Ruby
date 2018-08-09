@@ -4,11 +4,11 @@
 # .to_f CONVERTE A VARIAVEL EM FLOAT
 puts "Programa de Bhaskara"
 puts "Termo A"
-a = gets.to_f()
+a = gets.to_i()
 puts "Termo B"
-b = gets.to_f()
+b = gets.to_i()
 puts "Termo C"
-c = gets.to_f()
+c = gets.to_i()
 delta = b**2-4*a*c
 puts "Resultado \n"
 if delta < 0
